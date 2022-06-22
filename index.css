@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    --grey-color: rgb(67, 66, 70);
+}
+
+body{
+    background-color: azure;
+}
+
+.card{
+    background-color: white;  
+    margin: 15px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 10px 5px 5px var(--grey-color);
+    border-radius: 20px;
+}
+
+.code{
+    text-align: right;
+    color: var(--grey-color);
+}
+
+.card-image{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.product-title{
+    margin: 15px;
+}
+
+.discount-block{
+    margin: 35px 0;
+}
+
+.discount{
+    padding: 10px;
+    color: white;
+    background-color: rgb(247, 4, 4);
+}
+
+.rating{
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.star{
+    color: rgb(255, 199, 15);
+    padding: 0 3px;
+}
+.comment{
+    margin-left: 20px;
+}
+
+.cost{
+    margin: 10px;
+    color: var(--grey-color);
+    font-size: 1.1em;
+}
+.price{
+    color: red;
+    font-weight: 1000;
+    font-size: 1.2em;
+    margin-right: 20px;
+}
+
+.cash-back{
+    background-color: rgb(234, 215, 74);
+    padding: 3px 5px;
+}
+
+.buy{
+    margin: 15px;
+    width: 50%;
+    height: 40px;
+    background-color: green;
+    border: none;
+    color: white;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 600px){
+
+
+
+    .card{
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        border-radius: 3px;
+        box-shadow: none;
+    }   
+}
